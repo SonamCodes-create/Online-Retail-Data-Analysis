@@ -1,32 +1,28 @@
-Data Cleaning Project (Kaggle Notebook)
+# Online Retail Data Analysis
 
-Project Overview
-This project focuses on cleaning a raw dataset using Python.  
-The goal is to prepare the data for further statistical analysis and visualization.
+## Dataset
+Online Retail Dataset (Kaggle)
 
-Tools Used
- *Python
- *Pandas
- *NumPy
- *Jupyter Notebook (Kaggle)
+## Objective
+Analyze customer purchase behavior using Python, SQL, and visualization.
 
-Dataset
-* Source: Kaggle
-* Format: CSV
-* Description: Raw dataset containing missing values and inconsistent entries.
+## Current Progress
+- Loaded dataset
+- Handled missing values
+- Removed invalid quantities and prices
+- Converted InvoiceDate to datetime
+- Completed data cleaning
 
-Work Completed (Day 1 – Data Cleaning)
-* Loaded the dataset into a Jupyter Notebook
-* Inspected data structure and column types
-* Identified missing values
-* Cleaned inconsistent data entries
-* Prepared the dataset for statistical operations
+## Tools Used
+- Python
+- Pandas
+- Matplotlib / Seaborn
+- Kaggle
 
-Current Status
-Data cleaning completed.  
 Statistical handling (mean, median, mode) will be added next.
 
 ## Next Steps
 * Handle missing values using mean, median, and mode
 * Perform basic statistical analysis
 * Add visualizations
+
